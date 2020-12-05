@@ -13,3 +13,4 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### If NodeJS and NPM are not installed on our computer, then install.
 ###### Install Express and add in the app.
 ###### Define a port number that the app will listen to.
+###### 
