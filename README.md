@@ -50,4 +50,7 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### Add in the router folder index.js file for the initial router and require express.Router() and add 'home' route and add router.use('./auth) In order for us to have access to routes in another file.
 ###### require this file in the main index.js and declare app.use("router/index").
 ###### add in the router folder auth.js file and add 'login' and 'register' route.
+##### parsing request body
+###### install through npm - body-parser and including it in the main index file.
+###### we will use bodyParser.json() and bodyParser.urlEncoded({extended:true}) (the seconde is for images)
 
