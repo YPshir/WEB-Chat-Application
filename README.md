@@ -53,4 +53,9 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ##### parsing request body
 ###### install through npm - body-parser and including it in the main index file.
 ###### we will use bodyParser.json() and bodyParser.urlEncoded({extended:true}) (the seconde is for images)
+##### Creating Auth Controllers and loging in users
+###### inside controllers folder we will add new authController.js that will exports login and register functions.
+###### include in the router/auth the login and the register functions from the authController.
+###### in this authController file we declare the functions login and register and start to build the login function.
+
 
