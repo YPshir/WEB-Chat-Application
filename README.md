@@ -30,7 +30,7 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### create .sequelizerc folder
 ###### create new config for database
 
-#### Creating user model, migration and seeder.
+#### Creating user model, migration and seeder
 ##### creating user model and migration.
 ###### run command - sequelize model:create --name User --attributes firstName:string,lastName:string,email:string,password:string,gender:string,avatar:string. this command created a user.js file in models folder and <number>create-user.js at database/migrations folder.
 ###### run command - sequelize db:migrate for updating in the DataBase all that we've done. (use sequelize:db:undo for droping tabels that we've added)
@@ -47,5 +47,7 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 
 #### Refactoring node router and adding authentication
 ##### Initial router
-######
+###### Add in the router folder index.js file for the initial router and require express.Router() and add 'home' route and add router.use('./auth) In order for us to have access to routes in another file.
+###### require this file in the main index.js and declare app.use("router/index").
+###### add in the router folder auth.js file and add 'login' and 'register' route.
 
