@@ -54,8 +54,27 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### install through npm - body-parser and including it in the main index file.
 ###### we will use bodyParser.json() and bodyParser.urlEncoded({extended:true}) (the seconde is for images)
 ##### Creating Auth Controllers and loging in users
-###### inside controllers folder we will add new authController.js that will exports login and register functions.
+###### inside controllers folder we will add new authController.js that use bcrypt and User model and that will exports login and register functions.
 ###### include in the router/auth the login and the register functions from the authController.
 ###### in this authController file we declare the functions login and register and start to build the login function.
+##### Generating JWT (json web token)
+###### install through npm - jsonwebtoken and include this package at authController file.
+###### add generateToken() function in authController - this function create token for user.
+##### Finishing register functionality and creating proper secret key
+###### add APP_KEY to .env file by using 'crypto' package of node and add this APP_KEY to our jwt.sign() function in authController file.
+###### build register() function.
+###### add to models/user.js hooks field for hashing password and add the hashingPassword function with 'bcrypt' package.
+##### Adding Server Side form request validation
+###### ins
+
+
+
+#### Creating React Application and setting project structure
+##### Installing React APP and setting project structure
+###### install through npm - 'express-validator' package.
+###### add validators folder and inside index.js file and include {body} from express-validator.
+###### add validate function and use it in auth.js route after cheack validation of fields as middleware.
+###### add to validators folder - auth folder and inside ass register.js and login.js file. 
+
 
 
