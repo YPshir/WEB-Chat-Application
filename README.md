@@ -85,7 +85,8 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### inside src folder create 'services' folder - performs ajax operations - everything we wanna fetch from the backend will display here.
 ###### inside src folder create 'utils' folder - keep all our helpers functions.
 
-
+#### Creating Auth components and authentication user
+##### Creating Initial components and adding React Router.
 
 
 
