@@ -65,16 +65,29 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### build register() function.
 ###### add to models/user.js hooks field for hashing password and add the hashingPassword function with 'bcrypt' package.
 ##### Adding Server Side form request validation
-###### ins
+###### install through npm - 'express-validator' package.
+###### add validators folder and inside index.js file and include {validationResult} from 'express-validator' package.
+###### add to validators folder - auth folder and inside add register.js and login.js file and include in those files {body} from 'express-validator' package.
+###### in auth.js router file include the validate function from index.js in valdators folder and register and login from auth folder in validators folder and use those functions as middleware.
+
 
 
 
 #### Creating React Application and setting project structure
 ##### Installing React APP and setting project structure
-###### install through npm - 'express-validator' package.
-###### add validators folder and inside index.js file and include {body} from express-validator.
-###### add validate function and use it in auth.js route after cheack validation of fields as middleware.
-###### add to validators folder - auth folder and inside ass register.js and login.js file. 
+###### we will run command in our main folder of the project chat-app: npx create-react-app chat-frontend. now we have 2 folders: one for the server side and the second for the client side.
+###### Now we're going to clean up the Unnecessary files at the react application:
+###### clean App.js file - delete content, remove logo (also remove logo.svg file itself).
+###### clean App.css file.
+###### inside src folder create 'components' folder.
+###### inside src folder create 'store' folder - for redux store managment (reducers, actions and all types).
+###### inside src folder create 'assets' folder - for keeping our images and scss.
+###### inside src folder create 'services' folder - performs ajax operations - everything we wanna fetch from the backend will display here.
+###### inside src folder create 'utils' folder - keep all our helpers functions.
+
+
+
+
 
 
 

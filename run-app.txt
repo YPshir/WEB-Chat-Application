@@ -3,3 +3,5 @@ cd chat-backend
 npm start
 
 // run client
+cd chat-frontend
+npm start
