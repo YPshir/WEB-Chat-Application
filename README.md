@@ -99,6 +99,22 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### convert App.css to App.scss
 ###### create at assets/scss folder _variables.scss file
 ###### create at components/Auth Auth.scss file
+##### Creating and styling Register Component 
+###### Import {Link} from 'react-router-dom' at Register.js and Login.js components
+###### Add all the inputs (email, passwors, etc.) to Register.js and Login.js components
+##### Making component styles responsive
+###### make responsive the Auth.scss file with @media()
+##### Authenticating user with axios
+###### axios is a Promise based HTTP client for the browser and node.js
+###### in Login component import {useState} from 'react'
+###### install throught npm - 'npm i axios' and import at Login component
+###### At chat-backend folder install with npm i cors and include at index.js and app.use cors
+##### Adding axios base configuration and creating API services
+###### at services folder create api.js file and import axios
+###### at services folder creat import authService.js
+
+#### Adding Redux and working on Auth features
+##### installing Redux and creating auth actions
 
 
 
