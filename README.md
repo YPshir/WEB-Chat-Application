@@ -113,8 +113,19 @@ build a chat application using Node.js and React with Web Sockets, PostgreSQL, R
 ###### at services folder create api.js file and import axios
 ###### at services folder creat import authService.js
 
-#### Adding Redux and working on Auth features
+#### Adding Redux (State Managment Tool) and working on Auth features
 ##### installing Redux and creating auth actions
+###### ADDING REDUX -> CREATING ACTIONS -> CREATING REDUCER -> CREATING STORE -> ACCESSING GLOBAL STATE
+###### install redux throught npm i redux & npm i redux-thunk
+###### at store folder create actions folder and  inside - auth.js file
+##### Creating auth reducer
+###### in store folder create reducers folder and inside create auth.js file
+###### import {LOGIN} from '../actions/auth'
+##### Creating redux store
+###### at store folder create index.js file
+###### at reducers folder create index.js file
+###### install - npm i react-redux
+##### Saving user detials inside store
 
 
 
